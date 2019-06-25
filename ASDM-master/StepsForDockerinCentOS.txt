@@ -1,0 +1,62 @@
+git clone https://github.com/GoogleCloudPlatform/appengine-try-java
+
+
+To remove folder from centOS 7
+
+	rm -f -r john
+
+
+Lab Excersie
+
+1. Using App Engine of Google Cloud for deploying applications
+
+   a.Create Google App Servcie using Java Runtime.
+   b.Clone java application from github and deploy to Google AppEngine service created
+   c.Explore pom.xml file to check dependencies
+   d.Explore main folder of java application to check contents of .java file
+   e.if required change the logic of function of DoGet ()
+   f.User Maven for resolving dependencis of pom.xml
+   g.Start instance of Java Application using Google console comand
+   h.Test Java Applications using remote access with the help of Webpreview tool
+
+
+
+2. Using Infrastructure as As Service ( Docker Installation on CentOS 7 )
+
+	a.Provisioning  Centos 7 VM instance using Google  Compute Engine
+	b.Install Docker container Service in VM instance.
+
+
+I.Install required packages. yum-utils provides the yum-config-manager utility, 
+	and device-mapper-persistent-data and lvm2 are required by the devicemapper storage driver.
+
+	$ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+
+II.Use the following command to set up the stable repository.
+
+	$ sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+
+
+III.Install the latest version of Docker CE and containerd, or go to the next step to install a specific version:
+
+
+	$ sudo yum install docker-ce docker-ce-cli containerd.io
+
+IV.Start Docker.
+
+	$ sudo systemctl start docker
+  
+V.Verify that Docker CE is installed correctly by running the hello-world image.
+
+	$ sudo docker run hello-world
+
+c.List down existing containers
+d.pull container images from docker hub
+e.Run Docker container instances
+f.Check containers running in Docker
+
+
+	
+
+
+
